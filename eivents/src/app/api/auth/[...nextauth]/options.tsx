@@ -84,7 +84,7 @@ export const options: NextAuthOptions = {
               
                 return responseData;
               }
-              const url = `http://${process.env.DATABASE_BASE_URL}/api/v1/signin` || 'http://localhost:3100/api/v1/signin'
+              const url = 'http://localhost:3100/api/v1/signin'
               //const url = 'http://localhost:3100/api/v1/signin';
               const data = {
                 fullName: profile?.name,
