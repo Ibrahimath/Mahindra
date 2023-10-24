@@ -6,9 +6,10 @@ To run this app, complete the following steps:
 3.  On the first terminal, change directory to eivents and run "npm install" then "npm run dev"
 4.  Spin your mySQL database server running.
 5.  On the second terminal, change directory to database and run the following:
-    a.) npm install
-    b.) npm run migrate
-    c.) npm run seed
+    a.) npm install,
+    b.) npx sequelize init( then edit the config.json file to suite your db),
+    b.) npm run migrate,
+    c.) npm run seed,
     d.) npm run dev.
     Without a database connection, you will get an error while running some of these.
     
