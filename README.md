@@ -7,7 +7,6 @@ To run this app, complete the following steps:
 4.  Spin your mySQL database server running.
 5.  On the second terminal, change directory to database and run the following:
     a.) npm install,
-    b.) npx sequelize init( then edit the config.json file to suite your db),
     b.) npm run migrate,
     c.) npm run seed,
     d.) npm run dev.
