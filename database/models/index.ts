@@ -2,14 +2,14 @@
 
 import fs from  "fs" 
 import  path from 'path';
-const  Sequelize = require('sequelize');
+const  Sequelize:any = require('sequelize');
 import process from  'process';
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
 const config  = require (__dirname + '/../config/config.json')[env];
-const db = {};
+const db:any = {};
 
-let sequelize;
+let sequelize:any;
 if (config.use_env_variable) {
   sequelize = new Sequelize(process.env[config.use_env_variable], config);
 } else {
